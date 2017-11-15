@@ -1,0 +1,32 @@
+.jumbotron{
+	background-image: url("https://www.rd.com/wp-content/uploads/2016/04/rock-paper-scissor-ft.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 35px;
+	background-origin: padding-box;
+
+}
+
+.display-4{
+	color: white;
+}
+
+.lead{
+	color: white;
+}
+
+.follow{
+	color: whitesmoke;
+}
+
+#game-header{
+	color: black;
+	text-align: center;
+	background-color: bisque;
+	min-height: 50px;
+	vertical-align: middle;
+	
+
+
+
+}
