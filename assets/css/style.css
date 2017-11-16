@@ -13,10 +13,12 @@
 
 .lead{
 	color: white;
+	text-align: right;
 }
 
 .follow{
 	color: whitesmoke;
+	text-align: right;
 }
 
 #game-header{

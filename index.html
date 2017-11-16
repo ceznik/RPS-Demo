@@ -36,11 +36,53 @@
 <div id="game-header">Rock Paper Scissors</div>
 <br>
 <br>
-  <div class="col-lg-4">
+	<div class="col-lg-4" id="name-input-container">
+		<div class="input-group" id="name-input-group">
+			<input type="text" class="form-control" id="player-name" placeholder="Name" aria-label="Name">
+			<span class="input-group-btn">
+				<button class="btn btn-success" type="submit" id="btn-start">Start</button>
+			</span>
+		</div>
+	</div>
+	<div class="row" id="game-area">
+		<div class="col">
+			<div class="card" id="player-1" style="width: 20rem;">
+				<div class="card-body">
+					<h4 class="card-title">Player 1</h4>
+					<div class="btn-group-vertical">
+						<a href="#" class="btn btn-primary">Rock</a>
+						<a href="#" class="btn btn-primary">Paper</a>
+						<a href="#" class="btn btn-primary">Scissors</a>
+					</div>
+					<span><p class="card-text">Wins:</p><p class="card-text">Losses:</p></span>
+				</div>	
+			</div>
+		</div>
+		<div class="col">
+			<div class="card" style="width: 20rem;">
+				<div class="card-body">
+				</div>	
+			</div>
+		</div>
+		<div class="col">
+			<div class="card" style="width: 20rem;">
+				<div class="card-body">
+					<h4 class="card-title">Player 2</h4>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+  <div class="card-body">
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  </div>
+</div>
+  <div class="col-lg">
     <div class="input-group">
-      <input type="text" class="form-control" id="player-name" placeholder="Name" aria-label="Name">
+      <input type="text" class="form-control" placeholder="Type a message..." aria-label="Search for...">
       <span class="input-group-btn">
-        <button class="btn btn-success" type="submit" id="btn-start">Start</button>
+        <button class="btn btn-secondary" type="button">Send</button>
       </span>
     </div>
   </div>

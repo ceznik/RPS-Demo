@@ -6,9 +6,15 @@ $(document).ready(function(){
 	$("#btn-play").click(function(){
 		//alert("play button clicked");
 		$(".jumbotron").hide("slow");
+		$("#name-input-container:hidden").show("slow");
+		$("#game-area:hidden").show("slow");
+	});
+// handle new player added
+	$("#btn-start").click(function(){
+		var player = $("#player-name").val().trim();
+		$("#name-input-group").hide("slow");
+		$("#name-input-container").html("<div>Greetings " + player + " you are playing</div>");
 	});
 
-	$("#btn-start").click(function(){
-		console.log($("#player-name").val());
-	});
+
 });
